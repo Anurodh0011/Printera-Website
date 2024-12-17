@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -109,6 +110,7 @@
         .information-body {
             font-size: 20px;
         }
+
         /*Usage of the table tag in the website*/
         table {
             width: 550px;
@@ -300,33 +302,36 @@
 
 <body>
     <!--navigation bar-->
+    <!--navigation bar of the website here-->
     <header class="home-header">
         <div class="logo">
-          <img src="images/printerralogo.png" />
-          <h1>PRINTERRA</h1>
+            <img src="images/printerralogo.png" />
+            <h1>PRINTERRA</h1>
         </div>
+
         <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="index.html">Home</a></li>
-            <li><a class="main-nav-link" href="product.html">Product</a></li>
-            <li><a class="main-nav-link" href="research.html">References</a></li>
-            <li><a class="main-nav-link" href="blog.html">Blog</a></li>
-            <li><a class="main-nav-link" href="aboutus.html">About Us</a></li>
-            <li><a class="main-nav-link" href="contactus.html">Contact us</a></li>
-          </ul>
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="index.html">Home</a></li>
+                <li><a class="main-nav-link" href="product.html">Product</a></li>
+                <li><a class="main-nav-link" href="research.html">References</a></li>
+                <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+                <li><a class="main-nav-link" href="aboutus.html">About Us</a></li>
+                <li><a class="main-nav-link" href="contactus.html">Contact us</a></li>
+            </ul>
         </nav>
-        <div class="buttons">
-          <ul class="button-search">
-            <li>
-              <img
-                class="search-icon"
-                src="images/searchbuttonnav.png"
-                alt="icon"
-              />
-            </li>
-            <li><img class="user-icon" src="images/userbuttonnav.png" /></li>
-          </ul>
+
+        <div class="search-profile-container">
+            <div class="search-box">
+                <input class="search-input" type="text" placeholder="Search..." />
+                <button class="search-btn">
+                    <img src="images/searchbuttonnav.png" alt="Search" />
+                </button>
+            </div>
+            <div class="profile-container">
+                <img class="user-icon" src="images/userbuttonnav.png" alt="User" />
+            </div>
         </div>
+    </header>
     </header>
 
     <!-- Main container that consists of the description of the product -->
@@ -592,8 +597,7 @@
                 </div>
                 <!--product5-->
                 <div class="card">
-                    <img src="images/anotherhpprinter.jpeg"
-                        alt="Product Image">
+                    <img src="images/anotherhpprinter.jpeg" alt="Product Image">
                     <div class="card-title">Brother Printer Wireless All In One, Automatic 2 Sided Features, Mobile &
                         Cloud Print And Scan ,Ink Tank Printer- DCP T720DW</div>
                     <div class="ratings">
@@ -667,27 +671,27 @@
                 </div>
                 <!--product8-->
                 <div class="card">
-                <img src="images/canon3.jpeg" alt="Product Image">
-                <div class="card-title">Canon 2250</div>
-                <div class="ratings">
-                    <img src="images/starfull.png">
-                    <img src="images/starfull.png">
-                    <img src="images/starfull.png">
-                    <img src="images/starhalf.png">
-                    <img src="images/starnothing.png">
-                </div>
-                <div class="card-price">
-                    <div class="selling-price">
-                        Rs: 3,220
+                    <img src="images/canon3.jpeg" alt="Product Image">
+                    <div class="card-title">Canon 2250</div>
+                    <div class="ratings">
+                        <img src="images/starfull.png">
+                        <img src="images/starfull.png">
+                        <img src="images/starfull.png">
+                        <img src="images/starhalf.png">
+                        <img src="images/starnothing.png">
                     </div>
-                    <div class="marked-price">
-                        3,220
+                    <div class="card-price">
+                        <div class="selling-price">
+                            Rs: 3,220
+                        </div>
+                        <div class="marked-price">
+                            3,220
+                        </div>
                     </div>
-                </div>
-                <div class="card-button">
-                    <button class="buy-now-button">Buy Now</button>
-                    <button class="add-to-cart-button">Add to Cart</button>
-                </div>
+                    <div class="card-button">
+                        <button class="buy-now-button">Buy Now</button>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -696,53 +700,53 @@
     <!-- Footer consist of the website's contact information -->
     <footer>
         <div class="footer-container">
-          <div class="top footer-logo">
-            <div class="logo">
-              <img src="images/printerralogo.png" />
-              <h1>PRINTERRA</h1>
+            <div class="top footer-logo">
+                <div class="logo">
+                    <img src="images/printerralogo.png" />
+                    <h1>PRINTERRA</h1>
+                </div>
+                <div class="socials">
+                    <img src="images/instagram.png" />
+                    <img src="images/facebook.png" />
+                    <img src="images/gmail.png" />
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2024 by Printerra.Inc. All rights reserved.</p>
+                </div>
             </div>
-            <div class="socials">
-              <img src="images/instagram.png" />
-              <img src="images/facebook.png" />
-              <img src="images/gmail.png" />
+            <div class="top address">
+                <h1 class="footer-head">Contact Info</h1>
+                <ul class="footer-description">
+                    <li>kapan, Kathmandu</li>
+                    <li>+977 9849591020, 01-4820006</li>
+                </ul>
             </div>
-            <div class="copyright">
-              <p>Copyright &copy; 2024 by Printerra.Inc. All rights reserved.</p>
+            <div class="top account">
+                <h1 class="footer-head">Account</h1>
+                <ul class="footer-description">
+                    <li>My Account</li>
+                    <li>My Orders</li>
+                    <li>Sign in</li>
+                    <li>Mobile app</li>
+                </ul>
             </div>
-          </div>
-          <div class="top address">
-            <h1 class="footer-head">Contact Info</h1>
-            <ul class="footer-description">
-              <li>kapan, Kathmandu</li>
-              <li>+977 9849591020, 01-4820006</li>
-            </ul>
-          </div>
-          <div class="top account">
-            <h1 class="footer-head">Account</h1>
-            <ul class="footer-description">
-              <li>My Account</li>
-              <li>My Orders</li>
-              <li>Sign in</li>
-              <li>Mobile app</li>
-            </ul>
-          </div>
-          <div class="top company">
-            <h1 class="footer-head">Company</h1>
-            <ul class="footer-description">
-              <li>About us</li>
-              <li>Terms & Condition</li>
-              <li>Return Policy</li>
-              <li>FAQs & Help</li>
-            </ul>
-          </div>
-          <div class="top others">
-            <h1 class="footer-head">Others</h1>
-            <ul class="footer-description">
-              <li>Sell on Printerra</li>
-              <li>Partnership</li>
-              <li>Printerra International</li>
-            </ul>
-          </div>
+            <div class="top company">
+                <h1 class="footer-head">Company</h1>
+                <ul class="footer-description">
+                    <li>About us</li>
+                    <li>Terms & Condition</li>
+                    <li>Return Policy</li>
+                    <li>FAQs & Help</li>
+                </ul>
+            </div>
+            <div class="top others">
+                <h1 class="footer-head">Others</h1>
+                <ul class="footer-description">
+                    <li>Sell on Printerra</li>
+                    <li>Partnership</li>
+                    <li>Printerra International</li>
+                </ul>
+            </div>
         </div>
     </footer>
 
@@ -753,5 +757,6 @@
             fullImg.src = smallImg.src;
         }
     </script>
-    </body>
+</body>
+
 </html>
