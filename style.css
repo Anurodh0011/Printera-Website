@@ -6,10 +6,6 @@
 }
 
 /****************************************************HEADER SECTION/NAVIGATION BAR****************************************************/
-/* Header */
-/* Header */
-/* Header */
-/* Header */
 .home-header {
   background-color: white;
   display: flex;
@@ -144,7 +140,6 @@
   transform: scale(1.2);
 }
 
-
 /* Profile Icon */
 .profile-container .user-icon {
   width: 40px;
@@ -159,10 +154,6 @@
   transform: scale(1.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
 
 body {
   font-family: sans-serif;
@@ -463,7 +454,6 @@ footer {
   max-width: 100%;
   padding: 70px 0;
   height: 600px;
-
 }
 
 .footer-container {
